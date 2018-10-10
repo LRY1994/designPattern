@@ -1,6 +1,6 @@
-《Learning Javascript Design Patterns》 -Addy Osmani 人民邮电出版社
+# 《Learning Javascript Design Patterns》 -Addy Osmani 人民邮电出版社
 
-### 创建对象的三种方法
+## 创建对象的三种方法
 ```javascipt
 obj={};
 obj=new Object();
@@ -11,19 +11,28 @@ obj=Object.create(null)
 ### 创建型
 * Constructor
 * Prototype
-* [Singleton](./Singleton.js)
-* [Factory](./Factory.js)
-* [Abstarct](./Abstract-Factory.js)
+* [Singleton](./designPattern/Singleton.js)
+* [Factory](./designPattern/Factory.js)
+* [Abstarct](./designPattern/Abstract-Factory.js)
 * Builder
 ### 机构型
 * Decorator
-* Facade : 和[Module](./Module.js)类似
+* Facade : 和[Module](./designPattern/Module.js)类似
 * Flyweight
 * Adapter
 * Proxy
-### 行为
+### 行为型
 * Iterator
-* [Mediator](./Mediator.js)
-* [Observer](./Observer.js)
-* [Publich-Subscribe](./Publich-Subscribe.js)
+* [Mediator](./designPattern/Mediator.js)
+* [Observer](./designPattern/Observer.js)
+* [Publich-Subscribe](./designPattern/Publich-Subscribe.js)
 * Visitor
+
+
+# 懒加载
+[jquery版本](./code/lazyLoad.js)
+[原生版本](./code/lazy_load.js)
+
+# 重力加速度动画
+[canvas版本](./code/canvas/html)
+[amination](https://blog.csdn.net/drd_zsd123/article/details/80126260)
