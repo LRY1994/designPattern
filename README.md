@@ -10,7 +10,7 @@ obj=Object.create(null)
 ## 设计模式类别
 ### 创建型
 * Constructor
-* Prototype
+* [Prototype](./designPattern/Prototype.js)
 * [Singleton](./designPattern/Singleton.js)
 * [Factory](./designPattern/Factory.js)
 * [Abstarct](./designPattern/Abstract-Factory.js)
@@ -27,6 +27,7 @@ obj=Object.create(null)
 * [Observer](./designPattern/Observer.js)
 * [Publich-Subscribe](./designPattern/Publich-Subscribe.js)
 * Visitor
+
 
 
 # 懒加载

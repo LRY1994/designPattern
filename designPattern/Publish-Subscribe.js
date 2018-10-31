@@ -1,5 +1,6 @@
 //Publish/Subscribe
-var pubsub={};
+
+var pubsub={};//调度中心
 (function(q){
     var topics={},subUid = -1;
     q.publish = function(topic,args){
